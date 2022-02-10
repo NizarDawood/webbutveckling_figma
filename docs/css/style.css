@@ -1,32 +1,46 @@
-html body main {
+{
   height: 100%;
 }
 body {
   background-color: #ede9e0;
+
 }
 
 .meny-container {
   display: flex;
-
-  background-color: #47d11d;
+ background-color: #47d11d;
   height: 50px;
   width: 100%;
+
+}
+.meny-container a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.meny-container a:hover {
+  background-color: #ddd;
+  color: black;
 }
 .line-container {
   display: flex;
 
   background-color: #030303;
-  height: 10px;
+  height: 3px;
   width: 100%;
 }
 .blid-container {
   display: flex;
-
-  background-color: #f0e29273;
   height: 1000px;
 width: 100%;
 }
-
+.aktuelt {
+  display: flex;
+}
 .flexbox-container {
   display: flex;
 
@@ -54,4 +68,20 @@ width: 100%;
   width: 200px;
   height: 200px;
   background-color: #dfcbb5;
+}
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
 }
