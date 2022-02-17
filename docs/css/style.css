@@ -3,6 +3,7 @@
 }
 body {
   background-color: #ede9e0;
+  
 
 }
 
@@ -33,38 +34,116 @@ body {
   height: 3px;
   width: 100%;
 }
-.blid-container {
+.blid{
   display: flex;
-  height: 1000px;
+  height: 100%;
 width: 100%;
 }
 .aktuelt {
-  display: flex;
+
+margin-left: 45%;
 }
 .flexbox-container {
   display: flex;
+  -webkit-flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
 
   background-color: #ede9e0;
-  height: 200px;
+  margin: auto;
+  height: 100%;
   width: 100%;
+  margin-top: 5%;
+
 }
 
 .flexbox-item1 {
-  margin-left: 13%;
+  margin: 0%;
+  height: 300px;
+  width: 350px;
+  background-color: #dfcbb5;
+}
+.flexbox-item2 {
+  margin: 0%;
+  height: 300px;
+  width: 350px;
+  background-color: #dfcbb5;
+}
+
+.flexbox-item3 {
+  margin: 0%;
+  height: 300px;
+  width: 350px;
+  background-color: #dfcbb5;
+}
+@media (max-width: 65rem) {
+.flexbox-item1{
+  margin: 5%;}
+  .flexbox-item2{
+    margin: 5%;}
+    .flexbox-item3{
+      margin: 5%;}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+  .flexbox-container2 {
+  display: flex;
+  justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+  background-color: #ede9e0;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  
+}
+  .flexbox-item4 {
+ margin: 5%;
+  height: 200px;
+  width: 200px;
+  background-color: #dfcbb5;
+  align-content: space-between;
+}
+.flexbox-item5 {
+  margin: 5%;
+  width: 200px;
+  height: 200px;
+  background-color: #dfcbb5;
+}
+
+.flexbox-item6 {
+  margin: 5%;
+  width: 200px;
+  height: 200px;
+  background-color: #dfcbb5;
+}
+.flexbox-item7 {
+  margin: 5%;
   height: 200px;
   width: 200px;
   background-color: #dfcbb5;
 }
-.flexbox-item2 {
-  margin-left: 13%;
+.flexbox-item8 {
+  margin: 5%;
   margin-right: ;
   width: 200px;
   height: 200px;
   background-color: #dfcbb5;
 }
 
-.flexbox-item3 {
-  margin-right: 13%;
+.flexbox-item9 {
+  margin: 5%;
   width: 200px;
   height: 200px;
   background-color: #dfcbb5;
