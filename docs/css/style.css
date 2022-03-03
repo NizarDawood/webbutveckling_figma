@@ -1,12 +1,11 @@
-html, body, main {
+html body{
+  width: 100%;
   height: 100%;
    background-color: #ede9e0;
-  size: 2000vh;
   
 }
 
 .meny-container {
-  display: flex;
  background-color: #47d11d;
   height: 50px;
   width: 100%;
@@ -68,13 +67,13 @@ margin-left: 45%;
 
 .flexbox-item1 {
   margin: 0%;
-  height: 300px;
+  height: 400px;
   width: 350px;
   background-color: #dfcbb5;
 }
 .flexbox-item2 {
   margin: 0%;
-  height: 300px;
+  height: 400px;
   width: 350px;
   background-color: #dfcbb5;
 }
@@ -83,7 +82,7 @@ margin-left: 45%;
 .flexbox-item3 {
   image-rendering: auto;
   margin: 0%;
-  height: 300px;
+  height: 400px;
   width: 350px;
   background-color: #dfcbb5;
   
@@ -95,13 +94,15 @@ margin-left: 45%;
     margin: 5%;}
     .flexbox-item3{
       margin: 5%;}
+      .flexbox-container{
+      }
 
 }
 
 
   .flexbox-container2 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   -webkit-flex-wrap: wrap;
   background-color: #ede9e0;
   height: 100%;
@@ -111,43 +112,48 @@ margin-left: 45%;
 }
   .flexbox-item4 {
  margin: 5%;
-  height: 200px;
-  width: 200px;
-  background-color: #dfcbb5;
+ width: 250px; 
+ height: 350px;
+  background-color: #ede9e0;
   align-content: space-between;
 }
 .flexbox-item5 {
   margin: 5%;
-  width: 200px;
-  height: 200px;
-  background-color: #dfcbb5;
+  width: 250px; 
+  height: 300px;
+  background-color: #ede9e0;
+  justify-content: center;
 }
 
 .flexbox-item6 {
   margin: 5%;
-  width: 200px;
-  height: 200px;
-  background-color: #dfcbb5;
+  width: 250px;
+  height: 300px;
+  background-color: #ede9e0;
 }
 .flexbox-item7 {
   margin: 5%;
-  height: 200px;
-  width: 200px;
-  background-color: #dfcbb5;
+  height: 300px;
+  width: 250px;
+  background-color: #ede9e0;
 }
 .flexbox-item8 {
   margin: 5%;
-  margin-right: ;
-  width: 200px;
-  height: 200px;
-  background-color: #dfcbb5;
+  width: 250px;
+  height: 300px;
+  background-color: #ede9e0;
 }
 
 .flexbox-item9 {
+  font-display: ;
   margin: 5%;
-  width: 200px;
-  height: 200px;
-  background-color: #dfcbb5;
+  width: 250px;
+  height: 300px;
+  background-color: #ede9e0;
+}
+@media (max-width: 40rem) {
+.flexbox-container2{
+  justify-content: center;
 }
 
 
@@ -164,9 +170,11 @@ margin-left: 45%;
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  height: 50px;
 }
 .text-container{
   display: flex;
+  
 
 }
 .text1{
