@@ -35,14 +35,27 @@ html body{
 .bakrund-container{
   display: flex;
 height: 100vh;
-   background-image: url("../img/download.jpg");
  background-size: 100%;
  background-repeat: no-repeat;
+ position: relative;
+ text-align: ;
+ color: rgb(0, 0, 0);
 }
+.bottom-left {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
 
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
 .aktuelt {
-
-
 margin-left: 45%;
 }
 
