@@ -17,12 +17,8 @@ jobbade med att får
 
 
 
-
-Använd gärna bilder för att illustrera.
-hämsidan som jag har gjort liknar min figma jag har bara gjort några ändringar för utsendes skull.
- 
-
 För att lägga till bilder i markdown. Bilderna kan du ladda upp med Git som vanligt, länka dem med url eller filnamnet.
+efter att man var klar med sin kod såg hemsidan bara ut men när man ändrade skärm storleken då hamna alting huller om buller 
 
 ```
 ![GitHub Logo](/images/logo.png)
@@ -33,14 +29,22 @@ Format: ![Alt Text](url)
 
 ## Positiva erfarenheter
 
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+jag har lät mig hur man använder mediaquaries
+länka en fönster till hemsidan 
+lägga til en nav bar 
+lättare att skriva grund koden 
 
 ## Negativa erfarenheter
 
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+tydligare planering 
+börja med mobile first
+hantera text så att det inte  krashar.
+
 
 ## Sammanfattning
 
-Här redovisar du dina slutsatser, erfarenheter och lärdomar. Reflektera över din produkt och dess/dina utvecklingsmöjligheter.
-Vad kan vidareutvecklas och finns det utrymme att bygga vidare på projektet.
+
+över lag gick det bra och jag har lärt mig hur man använder mediaquaries
+mer säker på grunderna. till nästa gång behöver jag göra en tydligare planering och börja med mobile first och börja med att lägga in text.
+för att förbätra den här hesidan så behöver jag fixa nav baren till en meny så att det går att använda på mobil.    
 
